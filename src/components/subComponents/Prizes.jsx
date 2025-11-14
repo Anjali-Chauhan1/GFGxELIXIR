@@ -71,7 +71,7 @@ const Prizes = () => {
           preload="auto"
           className="w-full h-full object-cover opacity-25"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/80 via-black/60 to-black" />
       </div>
 
       {/* Content */}
