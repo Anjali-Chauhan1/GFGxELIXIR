@@ -180,7 +180,7 @@ const Cards = () => {
                   </h3>
 
                   {/* Tagline */}
-                  <p className="text-white/40 text-sm font-light opacity-0 group-hover:opacity-100 transition-all duration-500 h-10 overflow-hidden">
+                  <p className="text-white/40 text-sm font-light opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-500 h-10 overflow-hidden">
                     {item.tagline}
                   </p>
                 </div>
@@ -203,7 +203,7 @@ const Cards = () => {
           <div className="w-20 h-px bg-gradient-to-l from-transparent to-white/20" />
         </div>
       </div>
-    </section>
+    </section >
   );
 };
 
